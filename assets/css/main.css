@@ -1,0 +1,19 @@
+main.css
+
+/* Disable scrollbar Firefox */
+@-moz-document url-prefix() {
+  html {
+    scrollbar-width: none;
+  }
+}
+
+/* Disable scrollbar Chrome */
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  @apply bg-gray-100
+}
