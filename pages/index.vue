@@ -1,7 +1,7 @@
 index.vue
 
 <template>
-  <div class="container">
+  <div class="container mx-auto">
     <div class="page1 home">
       <div class="card hover:shadow-lg transition duration-500 ease-in p-6">
         <img
@@ -10,24 +10,24 @@ index.vue
           alt="profile image"
         />
         <div class="content mt-4">
-          <h2 class="name text-5xl font-semibold">Sagar Makhija</h2>
-          <div class="text-2xl">Frontend Engineer</div>
+          <h2 class="name text-3xl lg:text-5xl font-semibold">Sagar Makhija</h2>
+          <div class="text-lg lg:text-2xl">Frontend Engineer</div>
         </div>
       </div>
     </div>
     <div class="page2 about">
       <div class="me">
-        <div class="about-title text-lg text-teal-400">/me</div>
-        <div class="text-xl">
-          I'm a frontend developer based out of Ahmedabad and Banglore. I've
+        <div class="about-title bg-green-200 w-16 p-3 text-lg text-teal-700">/me</div>
+        <div class="text-xl mt-2">
+          Hi, I'm <span class="font-semibold italic underline">Sagar</span>. I'm a frontend developer based out of Ahmedabad and Banglore. I've
           been developing apps since 2 years mainly in javascript and other
           cutting edge technologies. I also design my own websites for
           small/side projects.
         </div>
       </div>
-      <div class="tech mt-4">
-        <div class="about-title text-lg text-teal-400">/tech</div>
-        <div class="text-xl">
+      <div class="tech mt-6">
+        <div class="about-title bg-green-200 w-20 p-3 text-lg text-teal-700">/tech</div>
+        <div class="text-xl mt-2">
           JavaScript | VueJS | Nuxt | TypeScript | Angular | PHP/Laravel |
           NodeJS | Git | HTML/CSS
         </div>
@@ -96,9 +96,6 @@ export default {
 </script>
 
 <style>
-.container {
-  margin: 0 auto;
-}
 .page1 {
   min-height: 100vh;
   display: flex;
