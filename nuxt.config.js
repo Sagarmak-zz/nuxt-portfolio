@@ -34,6 +34,12 @@ export default {
       {
         rel: "stylesheet",
         href: "https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+      },
+      {
+        rel: "icon",
+        type: "image/png",
+        href:
+          "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/microsoft/209/male-technologist_1f468-200d-1f4bb.png"
       }
     ]
   },
