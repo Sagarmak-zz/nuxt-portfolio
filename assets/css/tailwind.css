@@ -1,3 +1,22 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+.theme-light {
+  --background: theme(colors.gray.100);
+  /* --text: theme(colors.blue.900); */
+  --color-text: #19344d;
+  --color-text-gray: #0d0106;
+  --accent: theme(colors.teal.500);
+  --accent-text: theme(colors.teal.700);
+  --accent-bg: theme(colors.green.200);
+}
+
+.theme-dark {
+  --background: #141420;
+  --color-text: #eaeaea;
+  --color-text-gray: #0d0106;
+  --accent: theme(colors.teal.500);
+  --accent-text: theme(colors.teal.700);
+  --accent-bg: theme(colors.green.200);
+}

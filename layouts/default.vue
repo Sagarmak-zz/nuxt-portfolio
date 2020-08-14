@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <Nav />
+  <div class="bg-background" :class="{ 'theme-light': lightTheme, 'theme-dark': !lightTheme }">
+    <Nav :is-light-theme="lightTheme" @nav-toggle-theme="dummy" />
     <Nuxt />
   </div>
 </template>
@@ -9,6 +9,16 @@ import Nav from "@/components/Nav.vue";
 export default {
   components: {
     Nav
+  },
+  data() {
+    return {
+      lightTheme: true
+    };
+  },
+  methods: {
+    dummy() {
+      this.lightTheme = !this.lightTheme;
+    }
   }
 }
 </script>
