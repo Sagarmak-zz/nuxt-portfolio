@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-background" :class="{ 'theme-light': lightTheme, 'theme-dark': !lightTheme }">
+  <div class="layout mx-auto bg-background" :class="{ 'theme-light': lightTheme, 'theme-dark': !lightTheme }">
     <Nav :is-light-theme="lightTheme" @nav-toggle-theme="themeSwitcher" />
     <Nuxt />
   </div>
@@ -32,5 +32,9 @@ export default {
 
 header {
   min-height: 10vh;
+}
+
+.container {
+  width: 90%;
 }
 </style>

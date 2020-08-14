@@ -15,12 +15,12 @@ index.vue
         </div>
       </div>
     </div>
-    <div class="page2 about">
+    <div class="page2 about mb-20">
       <div class="me">
-        <div class="about-title w-16 p-3 text-lg text-accent-text bg-accent-bg">
+        <div class="about-title w-16 p-3 text-lg md:text-lg text-accent-text bg-accent-bg">
           /me
         </div>
-        <div class="text-color-text text-xl mt-2">
+        <div class="text-color-text text-base md:text-xl mt-2">
           Hi, I'm <span class="font-semibold italic underline">Sagar</span>. I'm
           a frontend engineer based out of Ahmedabad and Banglore. I've been
           developing web apps since 2 years mainly in javascript and other
@@ -29,10 +29,10 @@ index.vue
         </div>
       </div>
       <div class="tech mt-6">
-        <div class="about-title w-20 p-3 text-lg text-accent-text bg-accent-bg">
+        <div class="about-title w-20 p-3 text-lg md:text-lg text-accent-text bg-accent-bg">
           /tech
         </div>
-        <div class="text-color-text text-xl mt-2">
+        <div class="text-color-text text-base md:text-xl mt-2">
           JavaScript | VueJS | Nuxt | TypeScript | Angular | PHP/Laravel |
           NodeJS | Git | HTML/CSS
         </div>
@@ -110,9 +110,6 @@ export default {
   justify-content: center;
   /* align-items: center; */
   text-align: center;
-}
-.page2 {
-  min-height: 40vh;
 }
 .footer {
   min-height: 10vh;
