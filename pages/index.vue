@@ -17,16 +17,21 @@ index.vue
     </div>
     <div class="page2 about">
       <div class="me">
-        <div class="about-title bg-green-200 w-16 p-3 text-lg text-teal-700">/me</div>
+        <div class="about-title bg-green-200 w-16 p-3 text-lg text-teal-700">
+          /me
+        </div>
         <div class="text-xl mt-2">
-          Hi, I'm <span class="font-semibold italic underline">Sagar</span>. I'm a frontend developer based out of Ahmedabad and Banglore. I've
-          been developing apps since 2 years mainly in javascript and other
+          Hi, I'm <span class="font-semibold italic underline">Sagar</span>. I'm
+          a frontend engineer based out of Ahmedabad and Banglore. I've been
+          developing web apps since 2 years mainly in javascript and other
           cutting edge technologies. I also design my own websites for
           small/side projects.
         </div>
       </div>
       <div class="tech mt-6">
-        <div class="about-title bg-green-200 w-20 p-3 text-lg text-teal-700">/tech</div>
+        <div class="about-title bg-green-200 w-20 p-3 text-lg text-teal-700">
+          /tech
+        </div>
         <div class="text-xl mt-2">
           JavaScript | VueJS | Nuxt | TypeScript | Angular | PHP/Laravel |
           NodeJS | Git | HTML/CSS
