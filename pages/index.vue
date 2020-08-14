@@ -45,35 +45,35 @@ index.vue
         <a
           href="https://www.linkedin.com/in/sagarmak/"
           target="_blank"
-          class="icon mx-3 hover:text-teal-800"
+          class="icon mx-3 hover:text-teal-300"
         >
           <i class="far fa-file-alt"></i>
         </a>
         <a
           href="https://www.linkedin.com/in/sagarmak/"
           target="_blank"
-          class="icon mx-3 hover:text-teal-800"
+          class="icon mx-3 hover:text-teal-300"
         >
           <i class="fab fa-linkedin-in"></i>
         </a>
         <a
           href="mailto:sagar1309@live.com"
           target="_blank"
-          class="icon mx-3 hover:text-teal-800"
+          class="icon mx-3 hover:text-teal-300"
         >
           <i class="far fa-envelope"></i>
         </a>
         <a
           href="https://twitter.com/Sagarmak"
           target="_blank"
-          class="icon mx-3 hover:text-teal-800"
+          class="icon mx-3 hover:text-teal-300"
         >
           <i class="fab fa-twitter"></i>
         </a>
         <a
           href="https://t.me/Sagarmak"
           target="_blank"
-          class="icon mx-3 hover:text-teal-800"
+          class="icon mx-3 hover:text-teal-300"
         >
           <i class="fab fa-telegram-plane"></i>
         </a>
@@ -85,6 +85,9 @@ index.vue
 
 <script>
 export default {
+  props: [
+    "lightTheme"
+  ],
   head() {
     return {
       title: "Sagar Makhija | Frontend Engineer",

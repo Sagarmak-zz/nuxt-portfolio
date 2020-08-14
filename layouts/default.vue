@@ -1,6 +1,6 @@
 <template>
   <div class="bg-background" :class="{ 'theme-light': lightTheme, 'theme-dark': !lightTheme }">
-    <Nav :is-light-theme="lightTheme" @nav-toggle-theme="dummy" />
+    <Nav :is-light-theme="lightTheme" @nav-toggle-theme="themeSwitcher" />
     <Nuxt />
   </div>
 </template>
@@ -16,7 +16,7 @@ export default {
     };
   },
   methods: {
-    dummy() {
+    themeSwitcher() {
       this.lightTheme = !this.lightTheme;
     }
   }
