@@ -2,7 +2,7 @@ index.vue
 
 <template>
   <div class="container mx-auto">
-    <div class="page1 home">
+    <div class="page1 home items-center">
       <div class="card hover:shadow-lg transition duration-500 ease-in p-6">
         <img
           class="mx-auto h-48 w-48 rounded-full object-cover shadow-xl"
@@ -10,7 +10,7 @@ index.vue
           alt="profile image"
         />
         <div class="content mt-4">
-          <h2 class="name text-3xl lg:text-5xl font-semibold">Sagar Makhija</h2>
+          <h2 class="name text-3xl lg:text-5xl font-semibold dark:text-orange-400">Sagar Makhija</h2>
           <div class="text-lg lg:text-2xl">Frontend Engineer</div>
         </div>
       </div>
@@ -105,7 +105,7 @@ export default {
   min-height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   text-align: center;
 }
 .page2 {
