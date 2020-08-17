@@ -1,5 +1,5 @@
 <template>
-  <div class="layout mx-auto bg-background" :class="{ 'theme-light': lightTheme, 'theme-dark': !lightTheme }">
+  <div class="layout mx-auto bg-background transition duration-300 ease-in-out" :class="{ 'theme-light': lightTheme, 'theme-dark': !lightTheme }">
     <Nav :is-light-theme="lightTheme" @nav-toggle-theme="themeSwitcher" />
     <Nuxt />
   </div>
