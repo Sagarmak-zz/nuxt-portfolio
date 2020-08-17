@@ -17,7 +17,7 @@ index.vue
     </div>
     <div class="page2 about mb-20">
       <div class="me">
-        <div class="about-title w-16 p-3 text-lg md:text-lg text-accent-text bg-accent-bg">
+        <div class="about-title inline-block p-3 rounded text-lg md:text-lg text-accent-text bg-accent-bg">
           /me
         </div>
         <div class="text-color-text text-base md:text-xl mt-2">
@@ -29,7 +29,7 @@ index.vue
         </div>
       </div>
       <div class="tech mt-6">
-        <div class="about-title w-20 p-3 text-lg md:text-lg text-accent-text bg-accent-bg">
+        <div class="about-title inline-block p-3 rounded text-lg md:text-lg text-accent-text bg-accent-bg">
           /tech
         </div>
         <div class="text-color-text text-base md:text-xl mt-2">
@@ -45,40 +45,39 @@ index.vue
         <a
           href="https://www.linkedin.com/in/sagarmak/"
           target="_blank"
-          class="icon mx-3 hover:text-teal-300"
+          class="icon mx-3 hover:text-teal-300 transition duration-300 ease-in-out"
         >
           <i class="far fa-file-alt"></i>
         </a>
         <a
           href="https://www.linkedin.com/in/sagarmak/"
           target="_blank"
-          class="icon mx-3 hover:text-teal-300"
+          class="icon mx-3 hover:text-teal-300 transition duration-300 ease-in-out"
         >
           <i class="fab fa-linkedin-in"></i>
         </a>
         <a
           href="mailto:sagar1309@live.com"
           target="_blank"
-          class="icon mx-3 hover:text-teal-300"
+          class="icon mx-3 hover:text-teal-300 transition duration-300 ease-in-out"
         >
           <i class="far fa-envelope"></i>
         </a>
         <a
           href="https://twitter.com/Sagarmak"
           target="_blank"
-          class="icon mx-3 hover:text-teal-300"
+          class="icon mx-3 hover:text-teal-300 transition duration-300 ease-in-out"
         >
           <i class="fab fa-twitter"></i>
         </a>
         <a
           href="https://t.me/Sagarmak"
           target="_blank"
-          class="icon mx-3 hover:text-teal-300"
+          class="icon mx-3 hover:text-teal-300 transition duration-300 ease-in-out"
         >
           <i class="fab fa-telegram-plane"></i>
         </a>
       </div>
-      <!-- <div>&copy; 2020 - Sagar Makhija</div> -->
     </div>
   </div>
 </template>
