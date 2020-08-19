@@ -11,6 +11,7 @@ module.exports = {
     extend: {
       colors: {
         background: "var(--background)",
+        "background-lighter": "var(--background-lighter)",
         "color-text": "var(--color-text)",
         "color-text-gray": "var(--color-text-gray)",
         accent: "var(--accent)",
