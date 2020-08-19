@@ -119,9 +119,34 @@ export default {
       title: "Sagar Makhija | Frontend Engineer",
       meta: [
         {
+          hid: "keywords",
+          name: "keywords",
+          content: "sagar, sagar makhija, sagarmak, netlify, frontend engineer, vuejs, javascript, nuxt, portfolio"
+        },
+        {
+          hid: "name",
+          name: "name",
+          content: "Sagar Makhija | Frontend Engineer"
+        },
+        {
           hid: "description",
           name: "description",
-          content: "Best place for corny dad jokes"
+          content: "Sagar Makhija's site"
+        },
+        {
+          hid: "og:title",
+          name: "og:title",
+          content: "Sagar Makhija | Frontend Engineer"
+        },
+        {
+          hid: "og:url",
+          name: "og:url",
+          content: "https://sagarmakhija.netlify.app/"
+        },
+        {
+          hid: "og:description",
+          name: "og:description",
+          content: "Sagar Makhija's site"
         }
       ]
     };
@@ -138,7 +163,7 @@ export default {
   min-height: 10vh;
 }
 ul.flex li {
-  list-style-type: circle;
+  list-style-type: disc;
 }
 .animation {
   animation: in-out 2000ms ease-in-out 0s infinite normal forwards;
