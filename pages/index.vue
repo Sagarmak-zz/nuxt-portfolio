@@ -29,7 +29,7 @@ index.vue
         >
           /me
         </div>
-        <div class="text-color-text md:text-3xl mt-2">
+        <div class="text-color-text text-xl md:text-3xl mt-2">
           <div>Hi! 👋</div>
           <div>
             I'm <span class="font-semibold italic underline">Sagar</span> & I
