@@ -50,7 +50,7 @@ export default {
    ** Plugins to load before mounting the App
    ** https://nuxtjs.org/guide/plugins
    */
-  plugins: [{ src: '~plugins/ga.js', mode: 'client' }],
+  plugins: [],
   /*
    ** Auto import components
    ** See https://nuxtjs.org/api/configuration-components
@@ -61,7 +61,13 @@ export default {
    */
   buildModules: [
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
-    "@nuxtjs/tailwindcss"
+    "@nuxtjs/tailwindcss",
+    [
+      "@nuxtjs/google-analytics",
+      {
+        id: "UA-176022955-1"
+      }
+    ]
   ],
   /*
    ** Nuxt.js modules
