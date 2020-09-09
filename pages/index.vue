@@ -1,5 +1,3 @@
-index.vue
-
 <template>
   <div class="container mx-auto">
     <div class="page1 home flex items-center justify-center">
@@ -37,11 +35,9 @@ index.vue
           </div>
         </div>
         <div class="text-color-text text-base md:text-xl mt-2">
-          I'm a frontend engineer based out of AMD and BLR with the main focus on crafting
-          clean & user‑friendly experiences. I have a passion for web design and
-          love to create for web which strives to build immersive and beautiful
-          web applications through carefully crafted code and user-centric
-          design bringing the ideas to life.
+          A proficient and passionate Web Developer, more inclined towards
+          frontend, set out to build immersive and beautiful web apps through
+          carefully crafted code and user-centric design.
         </div>
       </div>
       <div class="tech mt-6">
@@ -50,18 +46,24 @@ index.vue
         >
           /skillset
         </div>
-        <div class="text-color-text text-base md:text-xl mt-2">
-          <ul class="flex flex-wrap list-inside">
-            <li class="w-1/3">JavaScript</li>
-            <li class="w-1/3">VueJS</li>
-            <li class="w-1/3">Nuxt</li>
-            <li class="w-1/3">TypeScript</li>
-            <li class="w-1/3">Angular</li>
-            <li class="w-1/3">PHP/Laravel</li>
-            <li class="w-1/3">NodeJS</li>
-            <li class="w-1/3">Git</li>
-            <li class="w-1/3">HTML/CSS</li>
-          </ul>
+        <div class="text-color-text text-base md:text-xl mt-2 flex items-center">
+          <span>JavaScript</span>
+          <div class="dot bg-accent rounded-full w-1 h-1 mx-2"></div>
+          <span>Vue.js</span>
+          <div class="dot bg-accent rounded-full w-1 h-1 mx-2"></div>
+          <span>Nuxt</span>
+          <div class="dot bg-accent rounded-full w-1 h-1 mx-2"></div>
+          <span>TypeScript</span>
+          <div class="dot bg-accent rounded-full w-1 h-1 mx-2"></div>
+          <span>Angular</span>
+          <div class="dot bg-accent rounded-full w-1 h-1 mx-2"></div>
+          <span>PHP/Laravel</span>
+          <div class="dot bg-accent rounded-full w-1 h-1 mx-2"></div>
+          <span>NodeJS</span>
+          <div class="dot bg-accent rounded-full w-1 h-1 mx-2"></div>
+          <span>Git</span>
+          <div class="dot bg-accent rounded-full w-1 h-1 mx-2"></div>
+          <span>HTML/CSS</span>
         </div>
       </div>
     </div>
@@ -121,36 +123,37 @@ export default {
         {
           hid: "keywords",
           name: "keywords",
-          content: "sagar, sagar makhija, sagarmak, netlify, frontend engineer, vuejs, javascript, nuxt, portfolio"
+          content:
+            "sagar, sagar makhija, sagarmak, netlify, frontend engineer, vuejs, javascript, nuxt, portfolio",
         },
         {
           hid: "name",
           name: "name",
-          content: "Sagar Makhija | Frontend Engineer"
+          content: "Sagar Makhija | Frontend Engineer",
         },
         {
           hid: "description",
           name: "description",
-          content: "Sagar Makhija's site"
+          content: "Sagar Makhija's site",
         },
         {
           hid: "og:title",
           name: "og:title",
-          content: "Sagar Makhija | Frontend Engineer"
+          content: "Sagar Makhija | Frontend Engineer",
         },
         {
           hid: "og:url",
           name: "og:url",
-          content: "https://sagarmakhija.netlify.app/"
+          content: "https://sagarmakhija.netlify.app/",
         },
         {
           hid: "og:description",
           name: "og:description",
-          content: "Sagar Makhija's site"
-        }
-      ]
+          content: "Sagar Makhija's site",
+        },
+      ],
     };
-  }
+  },
 };
 </script>
 
