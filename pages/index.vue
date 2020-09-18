@@ -46,7 +46,7 @@
         >
           /skillset
         </div>
-        <div class="text-color-text text-base md:text-xl mt-2 flex items-center">
+        <div class="text-color-text text-base md:text-xl mt-2 flex items-center flex-wrap">
           <span>JavaScript</span>
           <div class="dot bg-accent rounded-full w-1 h-1 mx-2"></div>
           <span>Vue.js</span>
