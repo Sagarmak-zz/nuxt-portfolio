@@ -73,7 +73,7 @@
       >
         <div class="dot bg-accent rounded-full w-1 h-1 mr-2"></div>
         <a
-          href="https://drive.google.com/file/d/15Ekq6sCv3hlq7hVLqew9AR2PEFvPzjXw/view?usp=sharing"
+          href="https://drive.google.com/file/d/1RjaUSNimY7T_SQMhmw_dKkNAMNuPoFFb/view?usp=sharing"
           target="_blank"
           class="icon mx-3 hover:text-teal-300 transition duration-300 ease-in-out"
         >
